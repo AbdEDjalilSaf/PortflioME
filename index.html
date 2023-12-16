@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/assets/react.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbdEDjalil Front End</title>
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript">
+window.addEventListener("scroll",reveal);
+
+function reveal(){
+let reveals = document.querySelectorAll(".reveal");
+// Raleway
+for(let i=0;i<reveals.length;i++){
+let windowHeight = window.innerHeight;
+let revealTop = reveals[i].getBoundingClientRect().top;
+let revealPoint = 100;
+
+if(revealTop < windowHeight - revealPoint){
+  reveals[i].classList.add("show");
+}else{
+  reveals[i].classList.remove("show");
+}
+}
+}
+
+
+window.addEventListener("scroll",cardMove);
+
+function cardMove(){
+let cardMoves = document.querySelectorAll(".cardMove");
+
+for(let j=0;j<cardMoves.length;j++){
+let windowHeight = window.innerHeight;
+let cardMovesTop = cardMoves[j].getBoundingClientRect().top;
+let cardMovesPoint = 100;
+
+if(cardMovesTop < windowHeight - cardMovesPoint){
+  cardMoves[j].classList.add("leftMove");
+}else{
+  cardMoves[j].classList.remove("leftMove");
+}
+}
+}
+</script>
+
+<script type="text/javascript">
+  window.addEventListener("scroll",growth);
+  
+  function growth(){
+  let growths = document.querySelectorAll(".growth");
+  
+  for(let i=0;i<growths.length;i++){
+  let windowHeight = window.innerHeight;
+  let growthTop = growths[i].getBoundingClientRect().top;
+  let growthPoint = 100;
+  
+  if(growthTop < windowHeight - growthPoint){
+    growths[i].classList.add("grow");
+  }else{
+    growths[i].classList.remove("grow");
+  }
+  }
+  }
+  </script>
+
+
+
+  </body>
+</html>
