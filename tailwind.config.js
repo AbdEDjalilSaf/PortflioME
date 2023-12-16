@@ -12,7 +12,7 @@ export default {
    
     extend: {
       screens:{
-        'lo':'380px',
+        'lo':'350px',
         },
     },
   },
