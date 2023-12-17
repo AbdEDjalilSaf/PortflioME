@@ -23,6 +23,10 @@ li {
 body{
   overflow-x: hidden;
 }
+body::selection{
+  background-color: #25187a;
+  color: #fff;
+}
 a {
   text-decoration: none;
 }
@@ -1337,10 +1341,21 @@ padding: 10px 15px;
   font-size: 20px;
   margin-bottom: 13px;
 }
-
-
-
-
+.App{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 15px;
+}
+.App img{
+  margin-bottom: 25px;
+}
+.App h2{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.App h3{
+line-height: 1.7;
+}
 
 
 

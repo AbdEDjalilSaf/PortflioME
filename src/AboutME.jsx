@@ -35,15 +35,16 @@ return(
         </header>
         </div>
 
-<div className='App'>
-<div className='text'>
+<div className='App mt-64 mb-16 flex  '>
+<div className='text  '>
 
-<h2>Hi, I'm Abd el Djalil</h2>
-
+<h2 className='flex items-center '>Hi, I'm Abd el Djalil 👋</h2>
+<h3>I am Abd el Djalil Saf,I am a scientific university and computer sicence student in (Kasdi Merbah Ourgla) in my Second Year of University
+.Currently, I am a front-end developer in the field of website development for nearly two years of learning and application Through self-learning</h3>
 
 </div>
-<div className='image'>
-<LazyLoadImage src='/image/me.jpg' loading='lazy' className='macbookImg z-50' />
+<div className='image '>
+<LazyLoadImage src='/image/me.jpg' loading='lazy' className=' xl:h-4/6  z-50' />
 </div>
 </div>
 
