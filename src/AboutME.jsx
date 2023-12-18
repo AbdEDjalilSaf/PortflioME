@@ -36,15 +36,16 @@ return(
         </div>
 
 <div className='App mt-64 mb-16 flex  '>
-<div className='text  '>
+<div className='text relaive '>
 
 <h2 className='flex items-center '>Hi, I'm Abd el Djalil 👋</h2>
 <h3>I am Abd el Djalil Saf,I am a scientific university and computer sicence student in (Kasdi Merbah Ourgla) in my Second Year of University
 .Currently, I am a front-end developer in the field of website development for nearly two years of learning and application Through self-learning.
-When I started studying in the first year of university, majoring in mathematics and computer science, I studied algorithms and information structuring,
+When I started studying in the first year of university in 2021, majoring in mathematics and computer science, I studied algorithms and information structuring,
 and I was applying that in the C language after six months. I was inspired to enter the programming field after advice from my friend, and I knew the difference between them,
 and I chose this field without hesitation. It certainly seemed like a weak start, little by little. Then I began to increase the hours of study after I began to understand things and listen to many programming discussions around the web,
-and this learning helped in all of that. Self and some university concepts.</h3>
+and this learning helped in all of that. Self and some university concepts.At university, I studied a range of subjects such as information systems, algebra and the graph
+Now.I'm programming some projects and have experience to make great user interface with some of the best framework like React JS, Tailwind CSS,Next JS with great experience in JavaScript </h3>
 
 </div>
 <div className='image '>

@@ -19,7 +19,6 @@ function Home(){
       setIsOpen(!isOpen);
     }
     
-    // console.log(window.location.pathname);  
     let path = window.location.pathname;
 
     return (
