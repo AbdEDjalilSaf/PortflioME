@@ -30,6 +30,9 @@ body::selection{
 a {
   text-decoration: none;
 }
+.aboutImg{
+  box-shadow: 5px 10px 15px 7px rgba(0, 0, 0, 0.15);
+}
 .headerFixed{
   z-index: 500;
 }
@@ -435,6 +438,26 @@ padding: 25px 35px;
   font-size: 23px;
   margin-bottom: 13px;
 }
+.App{
+  display: flex;
+  padding: 0 30px;
+  gap: 20px;
+}
+.App img{
+  margin-bottom: 25px;
+  width: 100%;
+}
+.App .text{
+  width: 130%;
+}
+.App h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.App h3{
+line-height: 1.8;
+font-size: 14px;
+}
 
 
 
@@ -610,6 +633,21 @@ padding: 10px 15px;
 .intergratTitle{
   font-size: 20px;
   margin-bottom: 13px;
+}
+.App{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 30px;
+}
+.App img{
+  margin-bottom: 25px;
+}
+.App h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.App h3{
+line-height: 1.8;
 }
 
 
@@ -840,6 +878,28 @@ position: absolute;
   left: 10%;
   width: 35%;
 }
+.App{
+  display: flex;
+  padding: 0 30px;
+  gap: 20px;
+}
+.App img{
+  margin-bottom: 25px;
+  width: 100%;
+}
+.App .text{
+  width: 130%;
+}
+.App h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.App h3{
+line-height: 1.8;
+font-size: 14px;
+}
+
+
 
 
 
@@ -1221,6 +1281,21 @@ padding: 10px 15px;
 .intergratTitle{
   font-size: 20px;
   margin-bottom: 13px;
+}
+.App{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 15px;
+}
+.App img{
+  margin-bottom: 25px;
+}
+.App h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.App h3{
+line-height: 1.8;
 }
 
 

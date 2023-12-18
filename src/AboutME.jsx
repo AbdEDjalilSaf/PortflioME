@@ -45,11 +45,11 @@ When I started studying in the first year of university in 2021, majoring in mat
 and I was applying that in the C language after six months. I was inspired to enter the programming field after advice from my friend, and I knew the difference between them,
 and I chose this field without hesitation. It certainly seemed like a weak start, little by little. Then I began to increase the hours of study after I began to understand things and listen to many programming discussions around the web,
 and this learning helped in all of that. Self and some university concepts.At university, I studied a range of subjects such as information systems, algebra and the graph
-Now.I'm programming some projects and have experience to make great user interface with some of the best framework like React JS, Tailwind CSS,Next JS with great experience in JavaScript </h3>
+Now.I'm programming some projects and have experience to make great user interface with some of the best framework like React JS, Tailwind CSS,Next JS with great experience in JavaScript .</h3>
 
 </div>
 <div className='image '>
-<LazyLoadImage src='/image/me.jpg' loading='lazy' className=' xl:h-4/6  z-50' />
+<LazyLoadImage src='/image/me.jpg' loading='lazy' className='aboutImg xl:h-4/6  z-50' />
 </div>
 </div>
 
