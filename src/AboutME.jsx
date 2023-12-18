@@ -49,7 +49,7 @@ Now.I'm programming some projects and have experience to make great user interfa
 
 </div>
 <div className='image '>
-<LazyLoadImage src='/image/me.jpg' loading='lazy' className='aboutImg xl:h-4/6  z-50' />
+<LazyLoadImage src='/image/me.jpg' loading='lazy' className='aboutImg  z-50' />
 </div>
 </div>
 
