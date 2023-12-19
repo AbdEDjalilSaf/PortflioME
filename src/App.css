@@ -66,6 +66,20 @@ h3::selection,
 p::selection{
   background-color: #503bd5 / 50%;
 }
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logoSlides{
+  animation: 10s slide infinite linear;
+  padding: 0 30px;
+}
 .textLink,
 .textBase{
 font-size: 40px;
@@ -1454,12 +1468,13 @@ padding: 10px 15px;
 line-height: 1.8;
 }
 .slides{
-  padding: 40px 0;
-  background-color: #fff;
+  padding: 70px 0;
+  background-color: #25187a;
 }
 .logoSlides{
   display: flex;
-  /* white-space: nowrap; */
+  white-space: nowrap;
+  /* animation: 5s slide infinite linear; */
 }
 
 
@@ -1467,8 +1482,6 @@ line-height: 1.8;
 
 
 }
-
-
 
 
 
@@ -1549,12 +1562,6 @@ line-height: 1.8;
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
   }
 }
 
