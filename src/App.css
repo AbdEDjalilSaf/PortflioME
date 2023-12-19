@@ -1453,8 +1453,20 @@ padding: 10px 15px;
 .App h3{
 line-height: 1.8;
 }
-
-
+.slides{
+  padding: 40px 0;
+  background-color: #fff;
+}
+.logoSlides{
+  display: flex;
+  white-space: nowrap;
+}
+.logoSlides svg{
+  width: 100px;
+}
+.windSvg{
+  height:50px;
+}
 
 
 
