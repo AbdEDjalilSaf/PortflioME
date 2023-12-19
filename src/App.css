@@ -1459,14 +1459,9 @@ line-height: 1.8;
 }
 .logoSlides{
   display: flex;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
-.logoSlides svg{
-  width: 100px;
-}
-.windSvg{
-  height:50px;
-}
+
 
 
 
