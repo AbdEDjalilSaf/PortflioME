@@ -77,7 +77,7 @@ p::selection{
 }
 
 .logoSlides{
-  animation: 10s slide infinite linear;
+  animation: 5s slide infinite linear;
   padding: 0 30px;
 }
 .textLink,
