@@ -1333,6 +1333,11 @@ padding: 10px 15px;
 .App h3{
 line-height: 1.8;
 }
+.logoSlides{
+  display: flex;
+  white-space: nowrap;
+  animation: 5s slide infinite linear;
+}
 
 
 
@@ -1458,6 +1463,7 @@ padding: 10px 15px;
   padding: 0 15px;
 }
 .App img{
+  width: 40px;
   margin-bottom: 25px;
 }
 .App h2{
@@ -1468,13 +1474,12 @@ padding: 10px 15px;
 line-height: 1.8;
 }
 .slides{
-  padding: 70px 0;
-  background-color: #25187a;
+  padding: 40px 0;
 }
 .logoSlides{
   display: flex;
   white-space: nowrap;
-  /* animation: 5s slide infinite linear; */
+  animation: 5s slide infinite linear;
 }
 
 
