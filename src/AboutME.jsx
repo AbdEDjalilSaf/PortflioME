@@ -58,7 +58,7 @@ Now.I'm programming some projects and have experience to make great user interfa
 
 
 <div className='slides'>
-<div className='logoSlides flex py-6 my-20 items-center select-none  '>
+<div className='logoSlides flex py-6 my-20 items-center select-none '>
 <LazyLoadImage src='/image/html.png' loading='lazy' className='windSvg lo:h-16 mx-4 ml-6 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none ' />
 <LazyLoadImage src='/image/css.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
 <LazyLoadImage src='/image/js.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
