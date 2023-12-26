@@ -67,14 +67,6 @@ p::selection{
   background-color: #503bd5 / 50%;
 }
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
 
 .logoSlides{
   animation: 20s slide infinite linear;
@@ -472,6 +464,19 @@ padding: 25px 35px;
 line-height: 1.8;
 font-size: 14px;
 }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
+.logoSlides{
+  display: flex;
+  white-space: nowrap;
+  animation: 40s slide infinite linear;
+}
 
 
 
@@ -662,6 +667,19 @@ padding: 10px 15px;
 }
 .App h3{
 line-height: 1.8;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-252%);
+  }
+}
+.logoSlides{
+  display: flex;
+  white-space: nowrap;
+  animation: 40s slide infinite linear;
 }
 
 
@@ -911,6 +929,19 @@ position: absolute;
 .App h3{
 line-height: 1.8;
 font-size: 17px;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-170%);
+  }
+}
+.logoSlides{
+  display: flex;
+  white-space: nowrap;
+  animation: 40s slide infinite linear;
 }
 
 
@@ -1181,7 +1212,19 @@ position: absolute;
 line-height: 1.8;
 font-size: 19px;
 }
-
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-178%);
+  }
+}
+.logoSlides{
+  display: flex;
+  white-space: nowrap;
+  animation: 40s slide infinite linear;
+}
 
 
 
@@ -1333,10 +1376,18 @@ padding: 10px 15px;
 .App h3{
 line-height: 1.8;
 }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-400%);
+  }
+}
 .logoSlides{
   display: flex;
   white-space: nowrap;
-  animation: 5s slide infinite linear;
+  animation: 40s slide infinite linear;
 }
 
 
@@ -1476,10 +1527,19 @@ line-height: 1.8;
 .slides{
   padding: 40px 0;
 }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1660%);
+  }
+}
+
 .logoSlides{
   display: flex;
   white-space: nowrap;
-  animation: 5s slide infinite linear;
+  animation: 40s slide infinite linear;
 }
 
 
