@@ -1562,8 +1562,23 @@ line-height: 1.8;
 
 
 
+.bg-red-500{
+  background-color: red;
+}
 
 
+.bg-blue-500{
+  background-color: blue;
+}
+
+
+.bg-green-500{
+  background-color: green;
+}
+
+a{
+  cursor: pointer;
+}
 
 
 
