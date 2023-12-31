@@ -35,12 +35,12 @@ return(
         </div>
 
 <div className='App mt-64 mb-16 flex '>
-<div className=' grid grid-cols-1 xl:gap-5 w-full'>
+<div className=' grid grid-cols-1 xl:gap-5 md:grid-cols-2 lg:grid-cols-3  w-full'>
   <div className='bg-red-500'>
     <div className='image'>
 
-    </div>
-    <div className='text py-3 px-5'>
+  </div>
+  <div className='text py-3 px-5'>
 <h3>project number one</h3>
 <a className=''>see project</a>
     </div>
