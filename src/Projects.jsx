@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import './App.css'
 import { Link, Routes ,Route } from 'react-router-dom';
 import Footer from './Footer.jsx'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 
@@ -35,10 +36,10 @@ return(
         </div>
 
 <div className='App mt-64 mb-16 flex '>
-<div className=' grid grid-cols-1 xl:gap-5 md:grid-cols-2   w-full'>
+<div className=' grid grid-cols-1 xl:gap-5 md:grid-cols-2 w-full'>
   <div className='bg-red-500'>
     <div className='image'>
-
+    <LazyLoadImage src='/image/profile.png' loading='lazy' className='macbookImg z-50' />
   </div>
   <div className='text py-3 px-5'>
 <h3>project number one</h3>
@@ -49,7 +50,7 @@ return(
 
   <div className='bg-blue-500'>
     <div className='image '>
-
+    <LazyLoadImage src='/image/article.png' loading='lazy' className='macbookImg z-50' />
     </div>
     <div className='text py-3 px-5'>
 <h3>project number two</h3>
@@ -60,7 +61,7 @@ return(
 
   <div className='bg-green-500'>
     <div className='image'>
-
+    <LazyLoadImage src='/image/stiky.png' loading='lazy' className='macbookImg z-50' />
     </div>
     <div className='text py-3 px-5'>
 <h3>project number three</h3>
@@ -71,7 +72,7 @@ return(
 
   <div className='bg-red-500'>
     <div className='image'>
-
+    <LazyLoadImage src='/image/oclock.png' loading='lazy' className='macbookImg z-50' />
     </div>
     <div className='text py-3 px-5'>
 <h3>project number four</h3>
