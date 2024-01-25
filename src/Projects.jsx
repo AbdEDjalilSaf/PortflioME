@@ -35,7 +35,7 @@ return(
         </div>
 
 <div className='App mt-64 mb-16 flex '>
-<div className=' grid grid-cols-1 xl:gap-5 md:grid-cols-2 lg:grid-cols-3  w-full'>
+<div className=' grid grid-cols-1 xl:gap-5 md:grid-cols-2   w-full'>
   <div className='bg-red-500'>
     <div className='image'>
 
@@ -45,6 +45,7 @@ return(
 <a className=''>see project</a>
     </div>
   </div>
+
 
   <div className='bg-blue-500'>
     <div className='image '>
@@ -56,6 +57,7 @@ return(
     </div>
   </div>
 
+
   <div className='bg-green-500'>
     <div className='image'>
 
@@ -65,6 +67,7 @@ return(
 <a>see project</a>
     </div>
   </div>
+
 
   <div className='bg-red-500'>
     <div className='image'>
@@ -76,25 +79,7 @@ return(
     </div>
   </div>
 
-  <div className='bg-blue-500'>
-    <div className='image'>
 
-    </div>
-    <div className='text py-3 px-5'>
-<h3>project number five</h3>
-<a>see project</a>
-    </div>
-  </div>
-
-  <div className='bg-green-500'>
-    <div className='image'>
-
-    </div>
-    <div className='text py-3 px-5'>
-<h3>project number sex</h3>
-<a>see project</a>
-    </div>
-  </div>
 
 </div>
 
