@@ -37,46 +37,46 @@ return(
 
 <div className='App mt-64 mb-16 flex '>
 <div className=' grid grid-cols-1 lo:gap-4 md:gap-5 lg:gap-5 xl:gap-5 md:grid-cols-2 w-full'>
-  <a href='' className='bg-red-500 rounded-md'>
+  <a href='' className='bg-[#aaaaaa] relative before:absolute before:w-full before:top-0 before:left-0 before:bg-[#dddddd] before:hidden  hover:before:block hover:bg-[#503bd5] rounded-md'>
     <div className='image'>
     <LazyLoadImage src='/image/profile.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
   </div>
   <div className='text py-3 px-5'>
-<h3>project number one</h3>
-<a className=''>see project</a>
+<h3 className='text-white lo:text-xl lo:font-extrabold mb-3'>My Profile</h3>
+<a className='text-white '>see project</a>
     </div>
   </a>
 
 
-  <a href='https://store-one-oeq7.vercel.app/' className='bg-blue-500 rounded-md'>
+  <a href='https://store-one-oeq7.vercel.app/' className='bg-[#aaaaaa] hover:bg-[#503bd5] rounded-md'>
     <div className='image '>
     <LazyLoadImage src='/image/article.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
     </div>
     <div className='text py-3 px-5'>
-<h3>project number two</h3>
-<a>see project</a>
+<h3 className='text-white lo:text-xl lo:font-extrabold mb-3'>Fashion</h3>
+<a className='text-white'>see project</a>
     </div>
   </a>
 
 
-  <a href='https://2a7rtdydrv2ztgv4t7if5g.on.drv.tw/Steky Notes/stiky.html' className='bg-green-500 rounded-md'>
+  <a href='https://2a7rtdydrv2ztgv4t7if5g.on.drv.tw/Steky Notes/stiky.html' className='bg-[#aaaaaa] hover:bg-[#503bd5] rounded-md'>
     <div className='image'>
     <LazyLoadImage src='/image/stiky.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
     </div>
-    <div className='text py-3 px-5'>
-<h3>project number three</h3>
-<a>see project</a>
+    <div className='text  py-3 px-5'>
+<h3 className='text-white lo:text-xl lo:font-extrabold mb-3'>Stiky notes project</h3>
+<a className='text-white '>see project</a>
     </div>
   </a>
 
 
-  <a href='https://2a7rtdydrv2ztgv4t7if5g.on.drv.tw/Oclock App/oclock.html' className='bg-red-500 rounded-md'>
+  <a href='https://2a7rtdydrv2ztgv4t7if5g.on.drv.tw/Oclock App/oclock.html' className='bg-[#aaaaaa] hover:bg-[#503bd5] rounded-md'>
     <div className='image rounded-lg'>
     <LazyLoadImage src='/image/oclock.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
     </div>
     <div className='text py-3 px-5'>
-<h3>project number four</h3>
-<a>see project</a>
+<h3 className='text-white lo:text-xl lo:font-extrabold mb-3'>O'clock Interfice</h3>
+<a className='text-white '>see project</a>
     </div>
   </a>
 
