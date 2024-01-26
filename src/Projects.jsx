@@ -37,9 +37,9 @@ return(
 
 <div className='App mt-64 mb-16 flex '>
 <div className=' grid grid-cols-1 lo:gap-4 md:gap-5 lg:gap-5 xl:gap-5 md:grid-cols-2 w-full'>
-  <a href='' className='bg-[#aaaaaa] relative before:absolute before:w-full before:top-0 before:left-0 before:bg-[#dddddd] before:hidden  hover:before:block hover:bg-[#503bd5] rounded-md'>
-    <div className='image'>
-    <LazyLoadImage src='/image/profile.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
+  <a href='' className='bg-[#aaaaaa]  hover:bg-[#503bd5] rounded-md'>
+    <div className='image '>
+    <LazyLoadImage src='/image/profile.png' loading='lazy' className='macbookImg relative rounded-t-md ' />
   </div>
   <div className='text py-3 px-5'>
 <h3 className='text-white lo:text-xl lo:font-extrabold mb-3'>My Profile</h3>

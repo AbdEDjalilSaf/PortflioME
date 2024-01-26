@@ -1554,31 +1554,26 @@ line-height: 1.8;
 
 
 
+.macbookImg{
+  z-index: 10;
+}
 
-
-
-
-
-
-
-
-.bg-red-500{
-  background-color: red;
+.macbookImg::before{
+  content: "";
+  position: absolute;
+  background-color: #ddd;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 
-.bg-blue-500{
-  background-color: blue;
-}
 
 
-.bg-green-500{
-  background-color: green;
-}
 
-a{
-  cursor: pointer;
-}
+
 
 
 
