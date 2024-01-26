@@ -23,7 +23,7 @@ function Home(){
 
     return (
       <>
-       <div className='bgHeader '>
+       <div className='bgHeader relative'>
      <section className='relative '>
      <div className='w-full fixed headerFixed  overflow-x-hidden top-0'>
          <header className='py-4 header justify-between px-10 overflow-x-hidden lg:py-7 lg:px-15 xl:pt-4 xl:pb-4 xl:px-20 flex items-center md:justify-between xl:justify-between lg:justify-between z-50'>
@@ -44,7 +44,7 @@ function Home(){
 
         {/* -------------------------------  landing  ------------------------- */}
       
-         <div className='landing  '>
+         <div className='landing  relative'>
          <div className='flexLanding flex w-full items-center justify-center'>
            <div className='textLanding flex justify-center flex-col items-center'>
              <div>
@@ -76,8 +76,25 @@ function Home(){
      <Intergrat />                       
      <Footer />
       
+{isOpen ?
+<div className='absolute h-[100%] top-0 '>
+<div className=' bg-white'>
+<nav>
+<ul className=''>
+<li><Link to="/" className='textLink {path===to ? active : "" }  '>Home</Link></li>
+<li><Link  to="/Projects" className='textBase    '>PROJECTS</Link></li>
+<li><Link  to='/AboutME' className='textBase '>ABOUT ME</Link></li>
+
+<h1 className='text-4xl '>dsjhgjkjl;kkhkj</h1>
 
 
+</ul>
+</nav>
+</div>
+</div>
+:
+""
+}
 
 </>
 )
