@@ -1558,19 +1558,28 @@ line-height: 1.8;
   z-index: 10;
 }
 
-.macbookImg::before{
-  content: "";
+.contient{
   position: absolute;
-  background-color: #ddd;
+  background:rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 100;
+  opacity: 0;
+  transition: 0.5s;
 }
 
+.contient h1{
+font-size: 22px;
+color: #fff;
+}
 
-
+.contient:hover{
+  opacity: 1;
+}
 
 
 
