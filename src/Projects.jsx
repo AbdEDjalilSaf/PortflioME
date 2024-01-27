@@ -3,6 +3,10 @@ import './App.css'
 import { Link, Routes ,Route } from 'react-router-dom';
 import Footer from './Footer.jsx'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import oclockPng from '../image/oclock.png'
+import stikyNotesPng from '../image/stiky.png'
+import articlePng from '../image/article.png'
+import profilePng from '../image/profile.png'
 
 
 
@@ -38,7 +42,7 @@ return(
 <div className=' grid grid-cols-1 lo:gap-4 md:gap-5 lg:gap-5 xl:gap-5 md:grid-cols-2 w-full'>
   <a href='' className='bg-[#aaaaaa]  hover:bg-[#503bd5] rounded-md'>
     <div className='image relative'>
-    <LazyLoadImage src='/image/profile.png' loading='lazy' className='macbookImg rounded-t-md ' />
+    <LazyLoadImage src={profilePng} loading='lazy' className='macbookImg rounded-t-md ' />
     <div className='contient'>
       <h1>Show more</h1>
     </div>
@@ -52,7 +56,7 @@ return(
 
   <a href='https://store-one-oeq7.vercel.app/' className='bg-[#aaaaaa] hover:bg-[#503bd5] rounded-md'>
     <div className='image relative'>
-    <LazyLoadImage src='/image/article.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
+    <LazyLoadImage src={articlePng} loading='lazy' className='macbookImg z-50 rounded-t-md' />
     <div className='contient'>
       <h1>Show more</h1>
     </div>
@@ -66,7 +70,7 @@ return(
 
   <a href='https://2a7rtdydrv2ztgv4t7if5g.on.drv.tw/Steky Notes/stiky.html' className='bg-[#aaaaaa] hover:bg-[#503bd5] rounded-md'>
     <div className='image relative'>
-    <LazyLoadImage src='/image/stiky.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
+    <LazyLoadImage src={stikyNotesPng} loading='lazy' className='macbookImg z-50 rounded-t-md' />
     <div className='contient'>
       <h1>Show more</h1>
     </div>
@@ -80,7 +84,7 @@ return(
 
   <a href='https://2a7rtdydrv2ztgv4t7if5g.on.drv.tw/Oclock App/oclock.html' className='bg-[#aaaaaa] hover:bg-[#503bd5] rounded-md'>
     <div className='image rounded-lg relative'>
-    <LazyLoadImage src='/image/oclock.png' loading='lazy' className='macbookImg z-50 rounded-t-md' />
+    <LazyLoadImage src={oclockPng} loading='lazy' className='macbookImg z-50 rounded-t-md' />
     <div className='contient'>
       <h1>Show more</h1>
     </div>
