@@ -64,7 +64,7 @@ function Home(){
                </svg>
                <svg xmlns="http://www.w3.org/2000/svg" className='three' width="223" height="214" viewBox="0 0 523 214" data-shape="true" aria-hidden="true" id="cs-pattern-right">
                  <path fill="none" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2" d="M16.753 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0zM44.822 9.614a7.892 7.892 0 11-15.784-.002 7.892 7.892 0 0115.784.002zM72.89 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.783 0zM100.96 9.614a7.892 7.892 0 11-15.783-.002 7.892 7.892 0 0115.783.002zM129.028 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0z"></path></svg>
-              <LazyLoadImage  loading='lazy' className='macbookImg z-50' />
+              <LazyLoadImage src='/image/macbook.jpg' loading='lazy' className='macbookImg z-50' />
              <span className='spanImage'></span>
              </div>
            </div>
