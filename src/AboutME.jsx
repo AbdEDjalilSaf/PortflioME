@@ -3,6 +3,17 @@ import React, { useRef, useState } from 'react';
 import { Link, Routes ,Route } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Footer from './Footer.jsx'
+import pictureMe from '../image/me.jpg'
+import html from '../image/html.png'
+import css from '../image/css.png'
+import js from '../image/js.png'
+import git from '../image/git.png'
+import githup from '../image/githup.png'
+import react from '../image/react.png'
+import vite from '../image/vite.png'
+import postman from '../image/postman.png'
+import api from '../image/api.png'
+import jira from '../image/jira.png'
 
 
 function AboutME(){
@@ -49,7 +60,7 @@ Now.I'm programming some projects and have experience to make great user interfa
 
 </div>
 <div className='image '>
-<LazyLoadImage src='/image/me.jpg' loading='lazy' className='aboutImg  z-50' />
+<LazyLoadImage src={pictureMe} loading='lazy' className='aboutImg  z-50' />
 </div>
 </div>
 
@@ -58,36 +69,36 @@ Now.I'm programming some projects and have experience to make great user interfa
 
 <div className='slides'>
 <div className='logoSlides flex py-6 my-20 items-center select-none '>
-<LazyLoadImage src='/image/html.png' loading='lazy' className='windSvg lo:h-16 mx-4 ml-6 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none ' />
-<LazyLoadImage src='/image/css.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/js.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/git.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/githup.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/react.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/vite.png' loading='lazy' className='windSvg lo:h-16 mx-4  select-none' />
-<LazyLoadImage src='/image/postman.png' loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/api.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/jira.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/html.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/css.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/js.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/git.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/githup.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/react.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/vite.png' loading='lazy' className='windSvg lo:h-16 mx-4 select-none' />
-<LazyLoadImage src='/image/postman.png' loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/api.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/jira.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/html.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/css.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/js.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/git.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/githup.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/react.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/vite.png' loading='lazy' className='windSvg lo:h-16 mx-4 select-none' />
-<LazyLoadImage src='/image/postman.png' loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/api.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src='/image/jira.png' loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /> 
+<LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 ml-6 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none ' />
+<LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4  select-none' />
+<LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4 select-none' />
+<LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4 select-none' />
+<LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
+<LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /> 
 </div>
 
 
