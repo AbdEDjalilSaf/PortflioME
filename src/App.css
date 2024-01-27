@@ -1565,6 +1565,7 @@ line-height: 1.8;
   box-shadow: 5px 10px 15px 7px rgba(0, 0, 0, 0.15);
   transition: 0.5s ease;
   transform: translateX(-400px);
+  opacity: 0;
   z-index: 1500;
 }
 
@@ -1572,6 +1573,7 @@ line-height: 1.8;
   box-shadow: 5px 10px 15px 7px rgba(0, 0, 0, 0.15);
   transition: 0.5s ease;
   transform: translateX(0px);
+  opacity: 1;
   z-index: 1500;
   opacity: 1;
 }
