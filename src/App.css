@@ -72,7 +72,9 @@ p::selection{
   animation: 20s slide infinite linear;
   padding: 0 30px;
 }
+.textLinkTwo,
 .textLink,
+.textBaseTwo,
 .textBase{
 font-size: 40px;
 color: #cdf381;
@@ -166,10 +168,12 @@ li {
 .intergratTitle{
   color: #503bd5;
 }
+.textLinkTwo,
 .textLink{
   font-size: 22px;
   font-weight: 800;
 }
+.textBaseTwo,
 .textBase{
   font-size: 20px;
   font-weight: 800;
@@ -183,10 +187,15 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.Bactive{
+  color: #503bd5;
+}
 @media (min-width:768px) {
+  .textBaseTwo,
   .textBase{
     font-size: 16px;
   }
+  .textLinkTwo,
   .textLink{
     font-size: 19px;
   }
@@ -197,9 +206,11 @@ ul, ol, li {
   list-style-type: none;
 }
 @media (min-width:1200px) {
+  .textBaseTwo,
   .textBase{
     font-size: 19px;
   }
+  .textLinkTwo,
   .textLink{
     font-size: 22px;
   }
@@ -213,6 +224,10 @@ ul, ol, li {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.textBaseTwo:hover,
+.textLinkTwo:hover{
+  color: #503bd5;
 }
 .imageLanding img{
   z-index: 100;
