@@ -1563,14 +1563,14 @@ line-height: 1.8;
 
 .menuHidden{
   box-shadow: 5px 10px 15px 7px rgba(0, 0, 0, 0.15);
-  transition: 5s ease;
+  transition: 0.5s ease;
   transform: translateX(-400px);
   z-index: 1500;
 }
 
 .menuBlock{
   box-shadow: 5px 10px 15px 7px rgba(0, 0, 0, 0.15);
-  transition: 5s ease;
+  transition: 0.5s ease;
   transform: translateX(0px);
   z-index: 1500;
   opacity: 1;
