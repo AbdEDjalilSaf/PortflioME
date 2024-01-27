@@ -1586,6 +1586,7 @@ line-height: 1.8;
 
 .macbookImg{
   z-index: 10;
+  background-image: url(../image/macbook.jpg);
 }
 
 .contient{
