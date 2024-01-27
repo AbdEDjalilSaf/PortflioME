@@ -1566,7 +1566,7 @@ line-height: 1.8;
   transition: 0.5s ease;
   transform: translateX(-400px);
   opacity: 0;
-  z-index: 1500;
+  z-index: -1;
 }
 
 .menuBlock{
