@@ -15,8 +15,10 @@ import Footer from './Footer.jsx'
 function Home(){
 
     const [isOpen,setIsOpen] = useState(true);
+    const [isTranslate,setIstraslate] = useState(false);
     const clickMenuSvg = ()=>{
       setIsOpen(!isOpen);
+      setIstraslate(!isTranslate);
     }
     
     let path = window.location.pathname;
@@ -80,7 +82,7 @@ function Home(){
 {isOpen ?
 ""
 :
-<div className='  w-[90%] top-0 left-0 fixed menuHidden '>
+<div className='  w-[90%] top-0 left-0 fixed  {isTranslate ? menuBlock : menuHidden }'>
 <div className=' bg-white h-[100vh]'>
 <nav>
 <div className='flex justify-end items-center px-5 py-7 bg-[#503bd5]'>
