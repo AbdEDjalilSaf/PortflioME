@@ -104,6 +104,31 @@ return(
 </div>
 
 <Footer />
+
+
+
+
+      
+{isOpen ?
+""
+:
+<div className='  w-[90%] top-0 left-0 fixed menuHidden '>
+<div className=' bg-white h-[100vh]'>
+<nav>
+<ul className=''>
+<li className='block'><Link to="/" className='textLink  '>Home</Link></li>
+<li className='block'><Link  to="/Projects" className='textBase {path===to ? active : "" }  '>PROJECTS</Link></li>
+<li className='block'><Link  to='/AboutME' className='textBase '>ABOUT ME</Link></li>
+
+<h1 className='text-4xl'>hsrdukhlbjnl;jjoijlm</h1>
+
+</ul>
+</nav>
+</div>
+</div>
+}
+
+
 </>
 
 )

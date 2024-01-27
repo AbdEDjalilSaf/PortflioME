@@ -80,8 +80,8 @@ function Home(){
 {isOpen ?
 ""
 :
-<div className=' h-[100%] w-[95%] top-16 left-0 fixed menuHidden '>
-<div className=' bg-white'>
+<div className='  w-[90%] top-0 left-0 fixed menuHidden '>
+<div className=' bg-white h-[100vh]'>
 <nav>
 <ul className=''>
 <li className='block'><Link to="/" className='textLink {path===to ? active : "" }  '>Home</Link></li>

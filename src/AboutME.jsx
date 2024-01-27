@@ -94,6 +94,30 @@ Now.I'm programming some projects and have experience to make great user interfa
 
 </div>
 <Footer />
+
+
+
+      
+{isOpen ?
+""
+:
+<div className='  w-[90%] top-0 left-0 fixed menuHidden '>
+<div className=' bg-white h-[100vh]'>
+<nav>
+<ul className=''>
+<li className='block'><Link to="/" className='textLink  '>Home</Link></li>
+<li className='block'><Link  to="/Projects" className='textBase    '>PROJECTS</Link></li>
+<li className='block'><Link  to='/AboutME' className='textBase {path===to ? active : "" } '>ABOUT ME</Link></li>
+
+<h1 className='text-4xl'>hsrdukhlbjnl;jjoijlm</h1>
+
+</ul>
+</nav>
+</div>
+</div>
+}
+
+
 </>
 )
 
