@@ -15,6 +15,19 @@ import postman from '../image/postman.png'
 import api from '../image/api.png'
 import jira from '../image/jira.png'
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+
 
 function AboutME(){
 
@@ -30,7 +43,7 @@ let path = window.location.pathname;
 return(
 <>
 
-     <div className='w-full fixed headerFixed  overflow-x-hidden top-0'>
+     <div className='w-full fixed headerFixed  overflow-hidden top-0'>
          <header className='py-4 header justify-between px-10 overflow-x-hidden lg:py-7 lg:px-15 xl:pt-4 xl:pb-4 xl:px-20 flex items-center md:justify-between xl:justify-between lg:justify-between z-50'>
            <a className=' logo appFixed cursor-pointer'>S</a>
           <nav>
@@ -67,38 +80,51 @@ Now.I'm programming some projects and have experience to make great user interfa
 
 
 
-<div className='slides'>
-<div className='logoSlides flex py-6 my-20 items-center select-none '>
-<LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 ml-6 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none ' />
-<LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4  select-none' />
-<LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4 select-none' />
-<LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4 select-none' />
-<LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' />
-<LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /> 
+<div className='lo:py-[40px]'>
+<div className=' flex py-6 my-20 items-center select-none '>
+<Swiper
+        spaceBetween={8}
+        slidesPerView={2}
+        centeredSlides={true}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: true,
+        }}
+    
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper px-[30px] "
+      >
+<SwiperSlide><LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 ml-6 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none ' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4  select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={html} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={css} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={js} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={git} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={githup} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={react} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={vite} loading='lazy' className='windSvg lo:h-16 mx-4 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={postman} loading='lazy' className='windSvg lo:h-16 mx-5 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={api} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+<SwiperSlide><LazyLoadImage src={jira} loading='lazy' className='windSvg lo:h-16 mx-4 lo:w-16 md:w-20 md:h-20 md:mx-8 select-none' /></SwiperSlide>
+</Swiper>
 </div>
 
 

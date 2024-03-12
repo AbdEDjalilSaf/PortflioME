@@ -110,9 +110,11 @@ opacity: 1;
   position: relative;
   transition: all 0.7s ease;
   opacity: 0;
+  display: none;
 }
 .growth.grow{
   opacity: 1;
+  display: block;
 }
 .landing,
 header{
